@@ -90,4 +90,11 @@
     add_action('wp_head', 'integrate_generated_css');
 
 
-    
+# Add Image sizes
+
+// Image Formate
+add_image_size ("magazinformat", 300, 400, false);
+add_image_size ("magazinlistenformat", 220, 295, false);
+add_image_size ("sliderformatfullwidth", 1155, 530, array('right', 'bottom'));
+add_image_size ("sliderformatsmallwidth", 750, 400, array('right', 'bottom'));
+
